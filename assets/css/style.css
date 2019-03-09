@@ -1,0 +1,568 @@
+/* 
+     Created on :
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+@font-face{
+    font-family:"GothamMedium";
+    src:url("../fonts/gotham-medium.ttf");
+}
+@font-face{
+    font-family:"GothamBook";
+    src:url("../fonts/gotham-book.ttf");
+}
+@font-face{
+    font-family:'Montserrat-Bold';
+    src:url(../fonts/Montserrat-Bold.ttf);
+}
+
+.mg-bottom{
+    margin-bottom: 35px!important;
+}
+body{
+    font-family:"GothamBook";
+    /*       font-family:"GothamMedium"; */
+}
+h1,h2,h3,h4{
+    font-family:"GothamMedium"; 
+}
+
+body{
+    position: relative;
+}
+/*==============Header Start Here===================*/
+.slider{
+    position: relative;
+}
+.slider-caption{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    transform: translate(-40%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+.slider-caption h1{
+    color: #fafafa;;
+    font-size:20px;
+}
+.slider-caption a{
+    color: white!important;
+    font-size: 14px;
+    background-color: rgba(93, 92, 92, 0.43);
+    border: 1px solid;
+    padding:5px 10px;  
+    font-weight: bold;
+    transition: 0.47s ease all;
+    -webkit-transition: 0.7s ease all;
+    -moz-transition: 0.7s ease all;
+}
+.slider-caption a:hover{
+    background-color: #DB3838;
+    border-color: #DB3838;
+}
+.hd-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(93, 92, 92, 0.43);
+}
+
+/*==============Header End Here===================*/
+
+
+.btn-custom1{
+    background-color: #DB3838;
+    color: #fff;
+    border-color: #DB3838;
+}
+.btn-custom2{
+    background: #094DA2!important;
+    color: #fff!important;
+
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+
+.modal-content{
+    top:40px;
+}
+#login .modal-footer {
+    padding: 15px 15px 0!important;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+#login .form-group{
+    margin-bottom: 10px!important;
+}
+.main-menu{
+    padding: 20px 0;
+    border: 0;
+    font-weight: bold;
+
+}
+.menu-fixed{
+    background: red;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background:#222;
+    border-radius: 0;
+    padding:10px!important;
+}
+.affix a{
+    color: #fff!important;
+}
+
+#menu .dropdown-menu{
+    background:inherit;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #222;
+}
+.affix #menu .dropdown-menu{
+    background:#222;
+}
+.affix > #menu a:hover{
+    color: #F7564B!important;
+}
+.affix .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent;
+}
+.affix > .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #222;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: red!important;
+    background: transparent;
+}
+#regester .error{
+    margin-top: 5px;
+    color: red;
+}
+
+
+/*========Catagory Start==========*/
+#category{
+    padding-top:100px;
+}
+.category{
+    background: #F4F4F4;
+    text-align: center;
+}
+.category-img{
+    position: relative;
+}
+.category-img  a{
+    padding: 12px 28px;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid #CAC8C7;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    opacity: 0;
+    transform: translate(-80%,-30%);
+    -webkit-transform: translate(-80%,-30%);
+    -moz-transform: translate(-80%,-30%);
+    transition: all 0.66s ease;
+    -moz-transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+.category-img  a:hover{
+    text-decoration: none;
+}
+.overlay-ct{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(0.5);
+    background-color: rgba(93, 92, 92, 0.43);
+    transition: all 0.66s ease;
+    -moz-transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+.category-img:hover .overlay-ct{
+    opacity:1;
+    transform: scale(1);
+}
+.category-img:hover a{
+    opacity:1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+
+/*========Catagory End==========*/
+
+.btn-custom{
+    background-color: #DB3838;
+    color: #fff;
+    border-color: #DB3838;
+    padding: 6px 10px;
+}
+.title h3{
+    color: #525252;
+}
+.title .border-hr {
+    max-width: 370px;
+    background-color: #808080;
+    height: 2px;
+    border-color: #808080;
+
+}
+
+/*=========Clothes Catagories Start Here=========*/
+#men{
+    padding-top:60px;
+}
+.thumbnail {
+    padding:0;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    margin-bottom:35px;
+
+}
+.display-box{
+    position: relative;
+}
+.display-box-caption{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+.display-box-caption h3{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.display-box-caption a{
+    padding:10px  55px ;
+    width: 100%;
+    background-color: #DB3838;
+    font-size:16px;
+    color: #FFFFFF;
+}
+#collapseMen{
+    margin-top: 25px;
+}
+#collapseMen .thumbnail{
+
+}
+#productCarousel {
+    padding-top: 90px;
+}
+
+#productCarousel .carousel-control {
+    bottom:inherit;
+    top: 8%;
+    text-align: right;
+}
+
+#productCarousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left:30%;
+    color: #191919;
+
+}
+#productCarousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+    right:25%;
+    color: #191919;
+}
+#women{
+    padding-top: 50px;
+}
+#collapseWomen{
+    margin-top: 25px;
+}
+#productCarouselW {
+    padding-top: 90px;
+}
+
+#productCarouselW .carousel-control {
+    bottom:inherit;
+    top: 8%;
+    text-align: right;
+}
+
+#productCarouselW .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left:30%;
+    color: #191919;
+
+}
+#productCarouselW .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+    right:25%;
+    color: #191919;
+}
+.cart{
+    position: relative;
+    transition: 1s ease all;
+    padding: 15px 39px;
+    overflow: hidden;
+}
+/*=======Jewellery Start Here============*/
+#jewellery{
+    padding-top:70px;
+}
+#jewellery .thumbnail .caption{
+    padding: 10px 0;
+}
+#jewellery .btn-custom2{
+    display: block;
+}
+
+.cart span{
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    transition: 0.5s ease all;
+}
+.cart i{
+    position: absolute;
+    top:-50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    transition: 0.5s ease all;
+}
+
+.cart:hover span{
+    top:200%;
+    transform: translateY(-200%);
+}
+.cart:hover i{
+    top:50%;
+    width: 100%;
+    transform: translateY(-50%);
+
+}
+/*=======Jewellery CSS Here============*/
+#shoes{
+    padding: 100px 0px;
+}
+
+#shoes .filter-button button{
+    margin-bottom: 8px;
+}
+#shoes .men{
+    
+    margin-bottom: 35px!important;
+}
+#shoes .women{
+   
+    margin-bottom: 35px!important;
+}
+@media(max-width:550px){
+    #shoes .men{
+    padding: 20px 0px;
+    margin-bottom: 35px!important;
+}
+#shoes .women{
+    padding: 20px 0px;
+    margin-bottom: 35px!important;
+}
+}
+#shoes .s-caption{
+    padding: 10px 0px;
+}
+
+
+/*=======Services CSS Start Here============*/
+#service{
+    padding:70px 0px 50px;
+    background: #202c40;
+
+}
+#service  h2{
+    color: #E0E0E0;
+}
+.service-demo{
+    padding:30px 0;
+    text-align: center;
+    min-height: 140px;
+    background-color: #F4F5F0;
+    margin-bottom: 15px;
+    border: 1px solid #666666;
+    transition: .67s ease all;
+}
+.service-demo:hover{
+    transform: scale(1.1);
+}
+.service-demo a{
+    padding: 6px 10px;
+}
+/*=======Services CSS End Here============*/
+
+#about{
+    background: #F4F4F4;
+    padding:80px 0px; 
+}
+.about{
+    text-align: center;
+}
+.about p{
+    color: #333333;
+}
+
+#newsletter{
+    background: #286090;
+    padding: 50px 0px;
+}
+#newsletter p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*<!--===Contact Part Start Here===--->*/
+#contact{
+    padding: 50px 0 40px 0;
+    font-weight: bold;
+}
+#contact .title h2{
+    font-family: Montserrat-Bold;
+    color: #666666;
+}
+#contact .title .border-hr{
+    max-width: 400px;
+    margin: 0 auto;
+    background: blanchedalmond;
+}
+
+#contact form h3{
+    padding-bottom:15px;
+}
+#contact form .form-control{
+    background-color: #EDEDED;
+}
+
+.submit{
+    position: relative;
+    padding: 20px 50px;
+    font-size: 16px;
+    background:rgb(253, 26, 10);;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.9);
+}
+.submit .span{
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+    z-index: 2;
+    color:white;
+}
+.submit .spann{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:0%;
+    z-index:1;
+    height:100%;
+    opacity: 0;
+    transition: 1s ease all;
+}
+
+.submit:hover .spann{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    z-index:1;
+    height:100%;
+    background:#001451;
+    opacity:1;
+}
+.submit:hover .span{
+    color:whitesmoke;
+}
+.contact-info{
+    padding: 35px 0;
+    text-align: right;
+}
+/*<!--===Contact Part End Here===--->*/
+
+/*==============Bottom-footer Start Here==========*/
+
+#bottom-footer{
+    padding: 15px 0px 0px;
+    background: black;
+}
+#bottom-footer .copyright{
+    padding: 5px 0;
+    color: #E0E0E0;
+    font-size: 16px;
+}
+#bottom-footer .social{
+    text-align: right!important;
+}
+#bottom-footer .social li a{
+    padding: 0;
+    width:35px;
+    display: inline-block;
+    height:35px;
+    border-radius: 50%;
+    line-height:35px;
+    text-align: center;
+    font-size: 18px;
+    background-color:#23527C;
+    color: #E0E0E0;
+    transition: 0.47s ease all;
+}
+#bottom-footer .social li a:hover{
+    transform:scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform:scale(1.3);
+}
+.social li:first-child a {
+    background-color: #205B9F!important;
+}
+.social li:nth-child(2) a {
+    background-color: #00ACE3!important;
+}
+.social li:nth-child(3) a {
+    background-color: #205B9F!important;
+}
+.social li:nth-child(4) a {
+    background-color: #FF3921!important;
+}
+.social li:nth-child(5) a {
+    background-color: #BD081C!important;
+}
+
+.social li:nth-child(6) a {
+    background-color: #CE3286!important;
+}
+
+/*Bottom-footer End Here*/
+
+
+/*************** CSS  End ***********************=========*/
+/*************** CSS  End ***********************=========*/

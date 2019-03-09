@@ -1,0 +1,179 @@
+/* 
+   Created on :
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+
+/*--Extra-Small Device---*/
+@media(min-width:500px) and (max-width:879px){
+    .slider-caption{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    transform: translate(-40%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+    .slider-caption h1{
+    color: #fafafa;;
+    font-size:36px;
+}
+.slider-caption a{
+    color: white!important;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 10px 25px;  
+    font-weight: bold;
+    transition: 0.47s ease all;
+    -webkit-transition: 0.7s ease all;
+    -moz-transition: 0.7s ease all;
+}
+}
+@media(min-width:850px){
+    .slider-caption{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+.slider-caption h1{
+    color: #fafafa;;
+    font-size: 60px;
+}
+.slider-caption a{
+    color: white!important;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 12px 30px;  
+    font-weight: bold;
+    transition: 0.47s ease all;
+    -webkit-transition: 0.7s ease all;
+    -moz-transition: 0.7s ease all;
+}
+.slider-caption a:hover{
+    background-color: #DB3838;
+    border-color: #DB3838;
+}
+}
+
+
+@media (max-width:767px){
+    .display-box img{
+        width: 100%;
+    }
+    #productCarousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+        left:15%;
+        color: #191919;
+
+    }
+    #productCarousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+        right:40%;
+        color: #191919;
+    }
+}
+@media (max-width:445px){
+    .display-box-caption h3{
+        font-size:20px;
+        color: #FFFFFF;
+    }
+    .display-box-caption a{
+        padding:5px 20px ;
+        width: 100%;
+        background-color: #DB3838;
+        font-size:14px;
+        color: #FFFFFF;
+    }
+}
+@media (max-width:500px){
+    #jewellery img{
+        width: 100%!important;
+    }
+    
+    #contact .title h2{
+        font-size: 24px;
+    }
+    #contact form h3{
+        text-align: center;
+    }
+    .contact-info{
+        padding:20px 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    #bottom-footer .copyright{
+        text-align: center;
+
+    }
+    #bottom-footer .social{
+        text-align: center!important;
+    }
+}
+@media(max-width:625px){
+    #bottom-footer .copyright{
+        text-align: center;
+        display: block;
+        width: 100%;  
+    }
+    #bottom-footer .sm{
+        display: block;
+        width: 100%;  
+        margin-bottom:20px;
+    }
+    #bottom-footer .social{
+        text-align: center!important;
+
+    }
+
+}
+@media (max-width:336px){
+    #bottom-footer .social li a{
+        padding: 0;
+        width:28px;
+        display: inline-block;
+        height:28px;
+        border-radius: 50%;
+        line-height:28px;
+        text-align: center;
+        font-size: 14px;
+        background-color:#23527C;
+        color: #E0E0E0;
+        transition: 0.47s ease all;
+    }
+}
+/* --Small Device-- */
+@media  (max-width: 991px){
+    .thumbnail .caption{
+        padding:7px 4px;
+    }
+    .thumbnail .caption h3{
+        font-size: 22px;
+        text-align: center
+    }
+    .category-img a{
+        padding:8px 10px;
+        color: #FFF;
+    }
+}
+
+/* Medium Device */
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+/*---Large Device---*/
+@media (min-width:1200px){
+
+}
+
+
